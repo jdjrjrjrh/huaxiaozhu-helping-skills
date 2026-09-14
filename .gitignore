@@ -1,0 +1,19 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local tooling
+node_modules/
+coverage/
+.cache/
+*.log
+
+# Local environment and user data
+.env
+.env.*
+!.env.example
+user-data/
+screenshots/local/

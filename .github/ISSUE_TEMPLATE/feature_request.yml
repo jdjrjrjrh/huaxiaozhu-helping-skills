@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a scoped product, content, or accessibility improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Learning or user need
+      description: What problem should this change solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Evidence and boundaries
+      description: For training rules or mental-health content, describe the basis, intended audience, and limits.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Project fit
+      options:
+        - label: This proposal can remain transparent about rule-based, non-clinical feedback.
+          required: true

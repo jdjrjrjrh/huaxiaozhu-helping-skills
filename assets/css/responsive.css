@@ -1,0 +1,347 @@
+@media (min-width: 520px) {
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .feature-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .login-card {
+    padding: 34px;
+  }
+
+  .session-panel,
+  .guide-content,
+  .case-panel {
+    padding: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    padding: 30px 28px calc(var(--mobile-nav-height) + 35px);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .training-summary {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .card-body,
+  .home-hero,
+  .category-banner,
+  .result-hero,
+  .article-header,
+  .article-content {
+    padding: 28px;
+  }
+
+  .home-hero__image {
+    width: 230px;
+    max-height: 210px;
+    opacity: 0.72;
+  }
+
+  .home-hero__content {
+    max-width: calc(100% - 230px);
+  }
+
+  .guide-layout {
+    grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
+    align-items: stretch;
+  }
+
+  .guide-visual {
+    min-height: 100%;
+  }
+
+  .detail-grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  }
+
+  .public-shell {
+    padding: 24px 32px 34px;
+  }
+
+  .welcome-hero {
+    grid-template-columns: minmax(0, 1.12fr) minmax(320px, 0.88fr);
+    padding: 50px 0 30px;
+  }
+
+  .welcome-visual {
+    min-height: 470px;
+  }
+
+  .login-layout {
+    grid-template-columns: minmax(300px, 1fr) minmax(400px, 0.85fr);
+  }
+
+  .login-visual {
+    display: block;
+    padding: 30px;
+  }
+
+  .login-visual img {
+    width: min(100%, 560px);
+    max-height: 520px;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: 34px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .modal {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body:not(.public-page) {
+    background:
+      radial-gradient(circle at 8% 10%, rgba(100, 213, 218, 0.13), transparent 25%),
+      #edf7fa;
+  }
+
+  .app-shell {
+    width: min(100%, 1540px);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 238px minmax(0, 1fr);
+  }
+
+  .desktop-sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 18px;
+    background: rgba(255, 255, 255, 0.90);
+    border-right: 1px solid rgba(220, 235, 239, 0.9);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+
+  .sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 8px 25px;
+  }
+
+  .sidebar-brand img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .sidebar-brand strong,
+  .sidebar-brand span {
+    display: block;
+  }
+
+  .sidebar-brand strong {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .sidebar-brand span {
+    color: var(--primary);
+    font-size: 11px;
+  }
+
+  .sidebar-nav {
+    display: grid;
+    gap: 7px;
+  }
+
+  .sidebar-nav__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 48px;
+    padding: 9px 13px;
+    color: #647985;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: color var(--transition), background var(--transition), transform var(--transition);
+  }
+
+  .sidebar-nav__item:hover {
+    color: var(--primary-dark);
+    background: #f0fafb;
+    transform: translateX(2px);
+  }
+
+  .sidebar-nav__item.is-active {
+    color: var(--primary-dark);
+    background: var(--primary-pale);
+  }
+
+  .sidebar-nav__icon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    color: inherit;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .sidebar-user {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #f3fafb;
+    border-radius: 17px;
+  }
+
+  .sidebar-user img {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .sidebar-user__main {
+    min-width: 0;
+  }
+
+  .sidebar-user strong,
+  .sidebar-user span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .sidebar-user strong {
+    font-size: 13px;
+  }
+
+  .sidebar-user span {
+    color: var(--text-soft);
+    font-size: 10px;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .app-stage {
+    background: rgba(246, 252, 253, 0.76);
+  }
+
+  .app-header {
+    min-height: 78px;
+    padding: 13px 32px;
+  }
+
+  .app-header__center {
+    text-align: left;
+  }
+
+  .app-header__eyebrow {
+    display: block;
+  }
+
+  .app-header__title {
+    font-size: 23px;
+  }
+
+  .app-header__side:first-child {
+    display: none;
+  }
+
+  .page-content {
+    min-height: calc(100vh - 78px);
+    padding: 34px 34px 48px;
+  }
+
+  .training-workspace {
+    grid-template-columns: minmax(280px, 0.72fr) minmax(520px, 1.5fr);
+    align-items: start;
+  }
+
+  .case-panel {
+    position: sticky;
+    top: 110px;
+  }
+
+  .chat-panel {
+    min-height: calc(100vh - 146px);
+    max-height: calc(100vh - 110px);
+  }
+
+  .chat-messages {
+    min-height: 430px;
+  }
+
+  .chart-box {
+    height: 360px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .app-shell {
+    grid-template-columns: 260px minmax(0, 1fr);
+  }
+
+  .page-content {
+    padding-right: 44px;
+    padding-left: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal-backdrop {
+    align-items: end;
+    padding: 12px;
+  }
+
+  .modal {
+    width: 100%;
+    max-height: 86vh;
+    border-radius: 28px 28px 20px 20px;
+  }
+
+  .button-row .btn {
+    flex: 1 1 130px;
+  }
+
+  .session-actions .btn {
+    flex: 1;
+  }
+}
+
+@media (max-width: 519px) {
+  .profile-hero {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .profile-hero .btn {
+    width: 100%;
+  }
+
+  .home-hero__image {
+    display: none;
+  }
+}

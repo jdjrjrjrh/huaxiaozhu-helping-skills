@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="820" viewBox="0 0 800 820" role="img" aria-labelledby="title desc">
+  <title id="title">心理助人技能对话练习</title>
+  <desc id="desc">两张对话卡片和倾听、回应、复盘三个训练步骤的抽象插画</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9fbfb"/><stop offset="1" stop-color="#eaf1ff"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#64d5da"/><stop offset="1" stop-color="#247e99"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1e6570" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="800" height="820" rx="52" fill="url(#bg)"/>
+  <circle cx="690" cy="118" r="86" fill="#fff" opacity=".58"/>
+  <circle cx="118" cy="696" r="124" fill="#d5f6f4" opacity=".72"/>
+  <g filter="url(#shadow)">
+    <rect x="94" y="116" width="536" height="174" rx="34" fill="#fff"/>
+    <circle cx="157" cy="174" r="30" fill="#d5f6f4"/>
+    <path d="M144 178c9 11 19 11 28 0" fill="none" stroke="#278f99" stroke-width="6" stroke-linecap="round"/>
+    <rect x="210" y="156" width="322" height="16" rx="8" fill="#bdd9df"/>
+    <rect x="210" y="194" width="250" height="14" rx="7" fill="#e1edf0"/>
+    <rect x="210" y="226" width="290" height="14" rx="7" fill="#e1edf0"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="172" y="334" width="536" height="174" rx="34" fill="url(#accent)"/>
+    <circle cx="645" cy="392" r="30" fill="#fff" opacity=".2"/>
+    <path d="M632 396c9 11 19 11 28 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <rect x="246" y="374" width="316" height="16" rx="8" fill="#fff" opacity=".9"/>
+    <rect x="284" y="412" width="278" height="14" rx="7" fill="#fff" opacity=".58"/>
+    <rect x="326" y="444" width="236" height="14" rx="7" fill="#fff" opacity=".58"/>
+  </g>
+  <g transform="translate(104 600)">
+    <g>
+      <circle cx="54" cy="54" r="54" fill="#fff"/>
+      <path d="M36 51c13-13 24-13 37 0M40 67c9 8 19 8 28 0" fill="none" stroke="#278f99" stroke-width="6" stroke-linecap="round"/>
+      <text x="54" y="136" text-anchor="middle" font-family="system-ui,Microsoft YaHei,sans-serif" font-size="24" font-weight="700" fill="#315765">倾听</text>
+    </g>
+    <path d="M134 54h54m-11-11 12 11-12 11" fill="none" stroke="#9acbd0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(216)">
+      <circle cx="54" cy="54" r="54" fill="#fff"/>
+      <path d="M28 37h52a12 12 0 0 1 12 12v24a12 12 0 0 1-12 12H56L39 98V85H28a12 12 0 0 1-12-12V49a12 12 0 0 1 12-12Z" fill="none" stroke="#278f99" stroke-width="6" stroke-linejoin="round"/>
+      <text x="54" y="136" text-anchor="middle" font-family="system-ui,Microsoft YaHei,sans-serif" font-size="24" font-weight="700" fill="#315765">回应</text>
+    </g>
+    <path d="M350 54h54m-11-11 12 11-12 11" fill="none" stroke="#9acbd0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(432)">
+      <circle cx="54" cy="54" r="54" fill="#fff"/>
+      <path d="M31 58 47 74 79 39" fill="none" stroke="#278f99" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="54" y="136" text-anchor="middle" font-family="system-ui,Microsoft YaHei,sans-serif" font-size="24" font-weight="700" fill="#315765">复盘</text>
+    </g>
+  </g>
+</svg>

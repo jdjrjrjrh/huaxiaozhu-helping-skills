@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">温和提问学习卡片</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0d9"/><stop offset="1" stop-color="#e5f8f1"/></linearGradient></defs>
+  <rect width="640" height="360" rx="32" fill="url(#g)"/>
+  <path d="M128 82h384a28 28 0 0 1 28 28v108a28 28 0 0 1-28 28H306l-64 56v-56H128a28 28 0 0 1-28-28V110a28 28 0 0 1 28-28Z" fill="#fff" opacity=".92"/>
+  <path d="M273 142c8-28 31-42 58-42 33 0 59 20 59 51 0 28-18 40-42 54-15 9-20 18-20 34" fill="none" stroke="#e6a54e" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="328" cy="268" r="9" fill="#e6a54e"/><text x="320" y="334" text-anchor="middle" font-family="system-ui,Microsoft YaHei,sans-serif" font-size="29" font-weight="750" fill="#5d5547">提问 · 留出回应空间</text>
+</svg>

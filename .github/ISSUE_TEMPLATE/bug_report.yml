@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem in the static app
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Huaxiaozhu. Do not include real passwords, counselling records, or other sensitive data.
+  - type: input
+    id: page
+    attributes:
+      label: Page or flow
+      placeholder: "For example: records.html → filter"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system
+      placeholder: "Chrome 140 on Windows 11"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed personal and sensitive data from this report.
+          required: true
