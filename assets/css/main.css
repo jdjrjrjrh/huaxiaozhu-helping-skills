@@ -913,7 +913,7 @@ textarea.form-control {
   width: min(74vw, 390px);
   max-height: 350px;
   object-fit: contain;
-  animation: float 4 ease-in-out infinite;
+  animation: float 4s ease-in-out infinite;
 }
 
 .feature-strip {
